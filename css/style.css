@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Signika');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+body{
+	font-family: "Karla", sans-serif;
+	/* background: linear-gradient(to bottom right, #5aa8ed, #0be5c1); */
+	color: #434869;
+}
+
+h1{
+	font-family: "Signika", sans-serif;
+	font-size: 2.75rem;
+}
+
+.top-row{
+	margin: 2%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.left{
+	float: left;
+	text-align: right;
+}
+
+.right{
+	float: right;
+	text-align: left;
+}
+
+.left img{
+	max-height: 75vh;
+	width: auto;
+}
+
+.right img{
+	max-height: 75vh;
+	width: auto;
+}
+
+.row{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+.mockups{
+	width: 100%;
+	display: flex;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.mockups img{
+	max-height: 75vh;
+	width: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bottom-row{
+	margin: 2%;
+	max-width: 100%;
+}
+
+.bottom-row a{
+	color: #434869;
+	text-decoration: underline;
+}
+
+.bottom-border{
+	border-bottom: 1px #000 dotted;
+}
+
+.bottom-padding{
+	padding-bottom: 3%;
+}
+
+@media (max-width: 767px){
+	.left{
+		text-align: center;
+	}
+	.right{
+		text-align: center;
+	}
+	.mockups .col-md-3{
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}	
+}
